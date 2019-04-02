@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class='container'>主页
+<swiper>
+ <swiper-item><image src='/pages/images/dalian2.jpg' mode='center'></image></swiper-item>
+ <swiper-item></swiper-item>
+ <swiper-item></swiper-item>
+ <swiper-item></swiper-item>
+</swiper>
+</view>

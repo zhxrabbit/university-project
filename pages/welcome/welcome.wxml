@@ -1,0 +1,6 @@
+<!--pages/welcome/welcome.wxml-->
+<view class='container'>
+<image src='/pages/images/dalian2.jpg' mode='center'></image>
+ <text style='font_size:40rpx;'>欢迎进入</text>
+ <button hover='hover' hover-class='nav-hover' bindtap='come_baby' >start</button>
+</view>
