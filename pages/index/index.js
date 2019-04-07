@@ -1,13 +1,16 @@
 //index.js
 //获取应用实例
 Page({
- 
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    imgUrls: [
+      '../images/大连理工.jpg',
+      '../images/东北财经大学.jpg',
+      '../images/大连海事大学.jpg',
+      '../images/辽宁师范大学.jpg'
+    ]
   },
 
   /**

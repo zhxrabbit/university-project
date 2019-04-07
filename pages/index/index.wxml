@@ -5,34 +5,29 @@
   <view class="search">  
     <view class="df search_arr">  
       <icon class="searchcion" size='20' type='search'></icon>  
-      <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}"/>  
+      <input disabled placeholder="请输入关键字" value="{{searchValue}}"/>  
     </view>  
   </view>  
   <view class='sousuo'>搜索</view>  
 </view>  
 
 <swiper class='swiper' indicator-dots='true' autoplay='true' circular='true'>
- <swiper-item style='width=100%'>
- <image src='../images/大连理工.jpg' mode='center'></image>
- </swiper-item>
- <swiper-item style='width=100%'>
- <image src='../images/东北财经大学.jpg' mode='center'></image>
- </swiper-item>
- <swiper-item style='width=100%'>
- <image src='../images/大连海事大学.jpg' mode='center'></image>
- </swiper-item>
- <swiper-item style='width=100%'>
- <image src='../images/辽宁师范大学.jpg' mode='center'></image>
- </swiper-item>
-</swiper>
-
-<swiper indicator-dots="{{true}}" autoplay="{{true}}">
-  <block wx:for="{{imgUrls}}"  wx:key="*this">
+<block wx:for="{{imgUrls}}">
     <swiper-item>
-        <image src="{{item}}" style='width:100%'/>
+      <image src="{{item}}" mode='center' style="width:100%;"/>
     </swiper-item>
   </block>
 </swiper>
 
+<view>
+<navigator style='display:inline;' hover-class='nav-hover' url='/pages/about/about' open-type='switchTab'>
+<view class='nav-default'>
+<text>关于你想了解的大学</text>
+<text style='display:block'>这里全都有</text>
+</view>
+</navigator>
+</view>
+
+<map></map>
 
 </view>

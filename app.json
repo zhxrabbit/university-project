@@ -10,14 +10,14 @@
       {
         "text": "首页",
         "pagePath": "pages/index/index",
-        "iconPath": "pages/images/icons/about.png",
-        "selectedIconPath": "pages/images/icons/about-selected.png"
+        "iconPath": "pages/images/icons/首页.png",
+        "selectedIconPath": "pages/images/icons/首页-selected.png"
       },
       {
         "text": "大学介绍",
         "pagePath": "pages/about/about",
-        "iconPath": "pages/images/icons/weekly.png",
-        "selectedIconPath": "pages/images/icons/weekly-selected.png"
+        "iconPath": "pages/images/icons/School.png",
+        "selectedIconPath": "pages/images/icons/School-selected.png"
       }
     ],
     "color": "#000",
